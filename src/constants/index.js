@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  patientmanagementsystem,
   jobit,
   tripguide,
   threejs,
@@ -198,25 +198,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Patient Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Application-based platform that allows hospital management to manage Patient Details, Bills and Services, providing a convenient and efficient solution for Hospital needs.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Tkinter",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: patientmanagementsystem,
+    source_code_link: "https://github.com/includePrince/Patient-Management-System",
   },
   {
     name: "Job IT",
